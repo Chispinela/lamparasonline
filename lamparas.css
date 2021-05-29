@@ -164,9 +164,9 @@ header nav a:hover{
 .bombilla{
     margin-top: 20px;
     margin-bottom: 20px;
-    height:550px;
-    width: 975px;
-    object-fit: cover;
+    height:15cm;
+    width: 1000px;
+    object-fit: contain;
 }
 
 .tipos-de-bombillas{
