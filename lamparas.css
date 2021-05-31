@@ -1,4 +1,5 @@
 *{
+    list-style: none;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -82,7 +83,7 @@ header{
     margin-bottom: 20px;
     background: #252932;
 
-    position: fixed;
+
     left: 0;
     top:0;
     z-index: 1;
@@ -91,8 +92,9 @@ header{
 .wrapper{
     width: 90%;
     max-width: 1000px;
-    margin: auto;
+    margin: 5px;
     overflow: hidden;
+    margin-left: 400px;
 }
 
 header .logo{
@@ -195,4 +197,46 @@ header nav a:hover{
     font-size: 30px;
     text-align: left;
     font-family: 'Pattaya', sans-serif;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    padding:0 15px ;
+    display: block;
+    line-height: 45px;
+    background-color: #252932;
+    
+}
+
+nav ul ul{
+    position: absolute;
+    top: 110px;
+    border-top: 3px;
+    visibility: hidden;
+}
+
+nav ul ul li{
+   width: 100px;
+    display: list-item;
+    position: relative;
+
+}
+
+nav ul ul  li a{
+    font-size: 17px;
+}
+
+nav ul li:hover >ul{
+    visibility: visible;
+}
+
+.logo{
+    text-decoration: none;
+}
+
+.row2{
+    object-fit: cover;
 }
