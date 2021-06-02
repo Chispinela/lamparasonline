@@ -32,4 +32,8 @@ function Funcion5(){
 function Funcion6(){
     location.href = "lamparadevolcan.html";
 }
+function Funcion9(){
+    location.href = "comentarios.html";
+}
+
 
