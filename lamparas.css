@@ -445,6 +445,8 @@ footer {
   height: 80px;
   color: white;
    z-index: 1;
+    padding-right: 30px;
+    padding-top:5px
 }
 footer a{
   background-color:#252932 ;
@@ -454,4 +456,6 @@ footer a{
   height: 80px;
   color: white;
    z-index: 1;
+    padding-right: 10px;
+    padding-top:5px
 }
