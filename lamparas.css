@@ -459,3 +459,31 @@ footer a{
    z-index: 1;
     text-aling:center;
 }
+main{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    aling-items: center;
+    justify-content: center;
+    color:;
+    line-height:3.8;
+    font-size: 80px;
+    text-transform:uppercase;
+    font-weight: bold;
+    
+}
+
+footer{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 50px;
+    color: #fff;
+    background-color: #077c39;
+}
+.footer > *{
+    flex: 1 100%;
