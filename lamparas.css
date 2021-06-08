@@ -530,6 +530,11 @@ h2{
     color: #999;
 }
 .socials a{
+    background: #364a62;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-right: 10px;
 }
 .socials a i{
     color:#e7f2d4;
