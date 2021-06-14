@@ -450,3 +450,25 @@ footer .content a{
 footer .content a:hover{
     opacity: 1;
 }
+
+div.galeria{
+    margin: 10px 20px;
+    
+    float: left;
+    height: 300px;
+    width: 285px;
+    align-items: center;
+}
+
+div.galeria img{
+    width: 100%;
+    height: 170px;
+}
+
+
+
+div.pie{
+    text-align: center;
+
+    padding: 10px;
+}
