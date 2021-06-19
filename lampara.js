@@ -14,5 +14,27 @@ $(document).ready(function(){
 
 var btn = document.getElementById("btn");
 
+function Funcion(){
+location.href = "lamparadetecho.html";
+}
+function Funcion2(){
+    location.href = "lamparadetecho.html";
+}
+function Funcion3(){
+    location.href = "lamparadearaña.html";
+}
+function Funcion4(){
+    location.href = "lamparadepie.html";
+}
+function Funcion5(){
+    location.href = "lamparadepared.html";
+}
+function Funcion6(){
+    location.href = "lamparadevolcan.html";
+}
+function Funcion9(){
+    location.href = "comentarios.html";
+}
+
 
 
