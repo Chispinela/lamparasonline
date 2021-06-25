@@ -15,7 +15,7 @@ $(document).ready(function(){
 var btn = document.getElementById("btn");
 
 function Funcion(){
-location.href = "lamparadetecho.html";
+location.href = "lamparas-de-escritorio";
 }
 function Funcion2(){
     location.href = "lamparadetecho.html";
