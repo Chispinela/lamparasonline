@@ -15,7 +15,7 @@ $(document).ready(function(){
 var btn = document.getElementById("btn");
 
 function Funcion(){
-location.href = "lamparas-de-escritorio.tml";
+location.href = "lamparas-de-escritorio.html";
 }
 function Funcion2(){
     location.href = "lamparas-de-techo.html";
