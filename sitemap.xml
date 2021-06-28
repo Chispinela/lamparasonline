@@ -1,16 +1,80 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset>
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://lamparas-online.vercel.app/</loc>
-  <lastmod>2021-06-25T14:18:06+00:00</lastmod>
-</url>
-
-
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://lamparas-online.vercel.app/comentarios.html</loc>
+    <lastmod>2021-06-28</lastmod>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>https://lamparas-online.vercel.app/guirnalda.html</loc>
+    <lastmod>2021-06-28</lastmod>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>https://lamparas-online.vercel.app/ambilight.html</loc>
+    <lastmod>2021-06-28</lastmod>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>https://lamparas-online.vercel.app/lamparas-exteriores.html</loc>
+    <lastmod>2021-06-28</lastmod>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>https://lamparas-online.vercel.app/avisolegal.html</loc>
+    <lastmod>2021-06-28</lastmod>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>https://lamparas-online.vercel.app/tiraled.html</loc>
+    <lastmod>2021-06-28</lastmod>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>https://lamparas-online.vercel.app/letreros-led.html</loc>
+    <lastmod>2021-06-28</lastmod>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>https://lamparas-online.vercel.app/arboles-de-navidad-iluminados.html</loc>
+    <lastmod>2021-06-28</lastmod>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>https://lamparas-online.vercel.app/</loc>
+    <lastmod>2021-06-28</lastmod>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>https://lamparas-online.vercel.app/index.html</loc>
+    <lastmod>2021-06-28</lastmod>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>https://lamparas-online.vercel.app</loc>
+    <lastmod>2021-06-28</lastmod>
+    <changefreq>always</changefreq>
+  </url>
+ <url>
+    <loc>https://lamparas-online.vercel.app/lamparas-de-volcan.html</loc>
+    <lastmod>2021-06-28</lastmod>
+    <changefreq>always</changefreq>
+  </url>
+ <url>
+    <loc>https://lamparas-online.vercel.app/lamparas-de-pared.html</loc>
+    <lastmod>2021-06-28</lastmod>
+    <changefreq>always</changefreq>
+  </url>
+ <url>
+    <loc>https://lamparas-online.vercel.app/lamparas-de-pie.html</loc>
+    <lastmod>2021-06-28</lastmod>
+    <changefreq>always</changefreq>
+  </url>
+ <url>
+    <loc>https://lamparas-online.vercel.app/lamparas-de-techo.html</loc>
+    <lastmod>2021-06-28</lastmod>
+    <changefreq>always</changefreq>
+  </url>
 </urlset>
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
