@@ -392,3 +392,50 @@ div.pie{
     padding-bottom:30px;
      padding-top:30px;
 }
+img{
+    display: block;
+    width:100%;
+}
+
+.product{
+border: 1px solid #ccc;
+padding: 20px;
+text-align: center;
+position: relative;
+}
+.container-products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-gap: 15px;
+    width: 50%;
+    height: auto;
+}
+.product__title{
+    text-align: center;
+}
+.product__price{
+    color: #FF4E00;
+    font-weight: bold;
+}
+.product__icon{
+    text-align: block;
+    margin: 10px;
+}
+.product__img{
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+}
+.product:before{
+    content: "Nuevo";
+    background-color: #FF4E00;
+    padding: 10px;
+    width: 60px;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    transform: rotate(-90deg);
+    color: white;
+}
+
+
