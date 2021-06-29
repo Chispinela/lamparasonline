@@ -391,6 +391,7 @@ div.pie{
     padding: 10px;
 }
 .titulo{
+    
     padding-bottom:30px;
      padding-top:30px;
 }
@@ -413,6 +414,7 @@ position: relative;
     height: auto;
 }
 .product__title{
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
 }
 .product__price{
