@@ -423,7 +423,7 @@ position: relative;
     margin: 10px;
 }
 .product__img{
-    width: 100%;
+    width: 270px;
     height: 300px;
     object-fit: contain;
 }
