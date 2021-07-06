@@ -170,7 +170,7 @@ header nav a:hover{
     margin-top: 20px;
     margin-bottom: 20px;
     height:15cm;
-    width: 1000px;
+    width: 1fr;
     object-fit: contain;
 }
 
@@ -370,7 +370,7 @@ img{
 
 div.galeria{
     margin: 10px 20px;
-    
+    margin-bottom: auto;
     float: left;
     height: 300px;
     width: 285px;
@@ -405,12 +405,14 @@ border: 1px solid #ccc;
 padding: 20px;
 text-align: center;
 position: relative;
+
 }
 .container-products{
+    align-items: center;
     display: grid;
-    grid-template-columns: repeat(3, 1fr) ;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)) ;
     grid-gap: 15px;
-    width: 50%;
+    width: 1fr;
     height: auto;
 }
 .product__title{
@@ -426,7 +428,7 @@ position: relative;
     margin: 10px;
 }
 .product__img{
-    width: 270px;
+    width: 1fr;
     height: 300px;
     object-fit: contain;
 }
@@ -441,5 +443,7 @@ position: relative;
     transform: rotate(-90deg);
     color: white;
 }
-
-
+.contenedorr{
+    width: 1fr;
+    margin-bottom: 500px;
+}
