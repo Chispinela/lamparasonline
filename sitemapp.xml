@@ -3,7 +3,7 @@
   <url>
     <loc>https://lamparas-online.vercel.app/</loc>
     <lastmod>2021-07-07</lastmod>
-    <changefreq>daily</changefreq>
+    <changefreq>always</changefreq>
     <priority>1.0</priority>
       <image:image>
         <image:loc>https://lamparas-online.vercel.app/imagenes/a.png</image:loc>
