@@ -329,7 +329,7 @@ main{
     height: 70hv;
 }
 footer{
-    background-color: #252932;
+    background: linear-gradient(to right, #00093c, #2d0b00);
     font-family: "Open Sans";
     padding: 50px 20px;
 }
