@@ -29,7 +29,13 @@ font-family: 'Pattaya', sans-serif;
     margin-top: 20px ;
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 40px;
-    text-aling: center;
+    
+}
+.texto5{
+    margin-top: 20px ;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 40px;
+    text-align: center;
 }
 .container{
    display: flex;
