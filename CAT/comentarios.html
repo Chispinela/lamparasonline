@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>★Comentaris lampades online★</title>
+    <meta name="description" content="Ofertas, modelos , bombillas y TODO lo que puedas necesitar y saber sobre lámparas lo tienes en esta maravillosa web ➤➤¡Antes de comprar lámparas mira esta web!">
+    <link rel="stylesheet" href="comentarios.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Pattaya&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="lampara.js"></script>
+    <meta name="google-site-verification" content="tP1CsBrcGFl0wC-cM-iUcd1mCHS91UjtaC_-u5sO6iE" />
+ <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="google-site-verification" content="1OOPdMs9pTMvcM-zedsWkXIUnsLVvmzOW_Hu4U-NnHA" />
+    <meta name="robots" content="index, archive"/>
+    <meta name="keywords" content="Lámparas, bombillas, leds, iluminación">
+
+
+</head>
+<body>
+    <header>
+        <img src="spain.png" class="icon" onclick="español();">
+        <img src="united-kingdom.png" class="icon" onclick="ingles();">
+        <img src="3253480-catalonia-icon-flag_106770.png" class="icon" onclick="catala();">
+        <div class="wrapper">
+        <div class="logo">
+            <a class="logo" rel="nofollow" href="https://seralbla.com/">Lámparas</a>
+        </div>
+        <nav>
+            <ul>
+            <li><a rel="nofollow" href="https://seralbla.com/">Inicio</a></li>
+            <li><a>Marques</a>
+            <ul>
+                <li><a target="_blank" rel="nofollow" href="https://www.amazon.com/">Amazon</a></li>
+                <li><a target="_blank" rel="nofollow" href="https://www.ikea.com/">Ikea</a></li>
+                <li><a target="_blank" rel="nofollow" href="https://leds-c4.com/es">Leds c4</a></li>
+                <li><a target="_blank" rel="nofollow" href="https://www.igan-iluminacion.com/es/fabricantes/irvalamp/">Irva</a></li>
+                <li><a target="_blank" rel="nofollow" href="https://www.carrefour.es/?gclid=Cj0KCQjw78yFBhCZARIsAOxgSx0IBlBGeqZxHFtwgPdHvdxOWiqQlXnyFNZ7AmXony3y-iqC86hV1kcaApfUEALw_wcB&gclsrc=aw.ds&q=lamparas&scroll=VC4A-6180231">Flos</a></li>
+            </ul>
+        </li>
+            <li><a >Models</a>
+                <ul>
+                         <li><a target="_blank" href="https://www.amazon.com/-/es/escritorio-regulable-ajustable-plegable-dormitorio/dp/B08923SXXP/ref=sr_1_5?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=desk+lamp&qid=1622389706&sr=8-5">Lámpara-led</a></li>
+                    <li><a target="_blank" rel="nofollow" href="https://lightingspain.com/20314-l-irina-5.html"> L-Irina-5</a></li>
+                    <li><a target="_blank"rel="nofollow"  href="https://www.ikea.com/es/es/p/forsa-lampara-flexo-trabajo-blanco-30439117/">FORSÅ</a></li>
+                    <li><a target="_blank" rel="nofollow" href="">4</a></li>
+                    <li><a target="_blank" rel="nofollow" href="">5</a></li>
+                </ul>
+            </li>
+            <li><a href="index.html#saber-mas">Bombetes</a>
+            </li>
+            <li><a href="comentarios.html">Comentaris</a></li>
+        </ul>
+        </nav>
+    </div>
+        
+    </header>
+ <section>
+     <div class="container">
+         <form action="https://formspree.io/f/xbjqyjww" method="POST" id="form">
+             <div class="form-group">
+                 <label for="firtsName">Nom</label>
+                 <input type="text" id="firtsName" name="firtsName">
+             </div>
+
+             <div class="form-group">
+                 <label for="lastName">Cognom</label>
+                 <input type="text" id="lastName" name="lastName">
+             </div>
+
+             <div class="form-group">
+                 <label for="email">Email</label>
+                 <input type="email" id="email" name="email">
+             </div>
+
+             <div class="form-group">
+                 <label for="massage">Missatge</label>
+                 <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+             </div>
+             <button type="submit">Enviar</button>
+         </form>
+     </div>
+     <div id="status"></div>
+ </section>
+    <script>
+        const $form = document.querySelector("#form")
+
+        $form.addEventListener("submit", handleSubmit)
+
+        async function handleSubmit(event){
+            event.preventDefault()
+            const form = new FormData(this)
+            const response = await fetch(this.action, {
+                method: this.method,
+                body: form,
+                headers:{
+                    "Accept": "aplication/json"
+                }
+            })
+            if(response.ok){
+                this.reset()
+                alert("Gracias por tu mensaje")
+            }
+        }
+    </script>
+</div>
+
+   
+<footer>
+    <div class="container2">
+        <div class="ftr">
+            <h3>Comentarios</h3>
+            <ul class="content">
+                <li><a href="comentarios.html">Comentarios</a></li>
+            </ul>
+        </div>
+        <div class="ftr">
+            <h3>Contacto</h3>
+            <ul class="content">
+                <li><a href="https://seralbla.com/">Sergiseralbla@gmail.com</a></li>
+            </ul>
+        </div>
+        <div class="ftr">
+            <h3>Privacidad</h3>
+            <ul class="content">
+                <li><a href="politica-de-privacidad.html">Política de privacidad</a></li>
+                <li><a href="https://www.privacypolicies.com/live/0af25bd1-b731-4340-8943-b6367564c346">Política de Condiciones</a></li>
+                <li><a href="avisolegal.html">Aviso legal</a></li>
+            </ul>
+
+    </div>
+</footer>
+      </body>
+<html>
