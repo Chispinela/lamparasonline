@@ -39,15 +39,6 @@ function Funcion6(){
 function Funcion9(){
     location.href = "comentarios.html";
 }
-function ingles(){
-    location.href = "https://seralbla.com/EN/index.html";
-}
-function español(){
-    location.href = "index.html";
-}
-function catala(){
-    location.href = "https://seralbla.com/CAT/index.html";
-}
 
 
 
