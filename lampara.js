@@ -10,44 +10,26 @@ $(document).ready(function(){
 });
 
 
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-788R0DC0RB');
 
 var btn = document.getElementById("btn");
 
 function Funcion(){
-location.href = "lamparas-de-escritorio.html";
+    location.href = "lamparadeescritorio.html";
 }
 function Funcion2(){
-    location.href = "lamparas-de-techo.html";
+    location.href = "lamparadetecho.html";
 }
 function Funcion3(){
-    location.href = "lamparas-de-araña.html";
+    location.href = "lamparadearaña.html";
 }
 function Funcion4(){
-    location.href = "lamparas-de-pie.html";
+    location.href = "lamparadepie.html";
 }
 function Funcion5(){
-    location.href = "lamparas-de-pared.html";
+    location.href = "lamparadepared.html";
 }
 function Funcion6(){
-    location.href = "lamparas-de-volcan.html";
+    location.href = "lamparadevolcan.html";
 }
-function Funcion9(){
-    location.href = "comentarios.html";
-}
-function ingles(){
-    location.href = "https://seralbla.com/EN/index.html";
-}
-function español(){
-    location.href = "index.html";
-}
-function catala(){
-    location.href = "https://seralbla.com/CAT/index.html";
-}
-
-
 
